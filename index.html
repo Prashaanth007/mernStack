@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign In Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+      
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 2px;
+            box-sizing: border-box;
+            border-radius: 5px;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+      table {
+            width: 100%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label>Username</label></td>
+            <td><input type="text" name="username" required></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password" name="password" required></td>
+        </tr>
+        <tr>
+
+            <td><input type="submit" value="Sign In"></td>
+        </tr>
+    </table>
+</body>
+
+</html>
